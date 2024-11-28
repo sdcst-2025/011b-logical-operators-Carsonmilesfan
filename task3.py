@@ -24,3 +24,17 @@ Enter a number: 5
 Enter a number: 4.0
 4.0 is a positive integer
 """
+
+x = float(input("enter a number=>"))
+
+if x < 1:
+    print(f"{x} is not a positive integer")
+elif x > 0:
+    if round(x,0) == round(x,5):
+        print(f"{x} is a positive integer")
+    elif round(x,0) != round(x,5):
+        print(f"{x} is not a positive integer")
+    else:
+        print("idk")
+else:
+    print("idk")

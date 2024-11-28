@@ -22,4 +22,17 @@ Enter your name=>Gordon
 You are not a VIP.
 """
 
-VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+VIPNames = ("Guile")
+VIPNames = ("Blanka")
+VIPNames = ("Christine")
+VIPNames = ("Carol")
+VIPNames = ("Richard")
+VIPNames = ("Daniel")
+VIPNames = ("Chun-Li")
+
+x = input("Enter your name=>")
+
+if x == VIPNames:
+    print(f"Hi {x}, You are VIP!")
+elif x != VIPNames:
+    print(f"why are you here {x}, you werent invited")
